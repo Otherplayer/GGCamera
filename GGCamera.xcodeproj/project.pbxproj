@@ -14,6 +14,7 @@
 		63564F681AF113CB0004DFAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63564F671AF113CB0004DFAC /* Images.xcassets */; };
 		63564F6B1AF113CB0004DFAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63564F691AF113CB0004DFAC /* LaunchScreen.xib */; };
 		63564F771AF113CB0004DFAC /* GGCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63564F761AF113CB0004DFAC /* GGCameraTests.m */; };
+		63564F831AF113DB0004DFAC /* GGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 63564F821AF113DB0004DFAC /* GGCamera.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		63564F701AF113CB0004DFAC /* GGCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63564F751AF113CB0004DFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63564F761AF113CB0004DFAC /* GGCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGCameraTests.m; sourceTree = "<group>"; };
+		63564F811AF113DB0004DFAC /* GGCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCamera.h; sourceTree = "<group>"; };
+		63564F821AF113DB0004DFAC /* GGCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCamera.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		63564F591AF113CB0004DFAC /* GGCamera */ = {
 			isa = PBXGroup;
 			children = (
+				63564F801AF113D00004DFAC /* Camera */,
 				63564F5E1AF113CB0004DFAC /* AppDelegate.h */,
 				63564F5F1AF113CB0004DFAC /* AppDelegate.m */,
 				63564F611AF113CB0004DFAC /* ViewController.h */,
@@ -117,6 +121,15 @@
 				63564F751AF113CB0004DFAC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63564F801AF113D00004DFAC /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				63564F811AF113DB0004DFAC /* GGCamera.h */,
+				63564F821AF113DB0004DFAC /* GGCamera.m */,
+			);
+			name = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63564F831AF113DB0004DFAC /* GGCamera.m in Sources */,
 				63564F631AF113CB0004DFAC /* ViewController.m in Sources */,
 				63564F601AF113CB0004DFAC /* AppDelegate.m in Sources */,
 				63564F5D1AF113CB0004DFAC /* main.m in Sources */,
